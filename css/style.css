@@ -1,0 +1,133 @@
+
+
+* {
+	margin-top: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+section {
+	width: 100%;
+	height: 720px;
+	float: left;
+}
+
+#home {
+	background: linear-gradient(to bottom right, #6ae7e8, #000000);
+}
+
+#about {
+	background: #929292;
+}
+
+#work {
+	background: #929292;
+}
+
+#contact {
+	background: #011833;
+}
+
+nav {
+	width: 30%;
+	position: fixed;
+	z-index: 1;
+	top: 220px;
+}
+
+ul li {
+	margin: 0;
+	list-style: none;
+	padding: .3em;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: .3em 1em;
+	border-radius: 3px;
+	font-size: 25px;
+}
+
+nav ul li a:hover {
+	background-color: #cccccc;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 50px;
+}
+
+h2, h4 {
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;	
+}
+
+#logo {
+	background-color: #929292;
+}
+
+.text {
+	width: 50%;
+	color: #fff;
+	margin-left: 300px;
+	text-align: center;
+}
+
+#projects {
+	border: 2px solid #fff;
+	background-color: #35424a;
+}
+
+
+#projects a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.contact-content,
+#projects {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-content h4,
+#projects h4 {
+	font-size: 1.875em;
+	padding: 1% 0;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+
+footer {
+	background-color: #929292;
+	color: #fff;
+	padding: 1% 0;
+	width: 100%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+	.text {
+		margin-left: 25%;
+		text-align: left;
+	}
+	nav {
+		width: 100%;
+		top: 0;
+	}
+	nav ul li {
+		display: inline;
+	}
+	nav ul li a {
+		padding: 0 0;
+		border-radius: 0;
+		font-size: 20px;
+	}
+}
+
